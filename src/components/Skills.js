@@ -1,4 +1,3 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { skills } from "../data";
 import { SkillsDescrContainer, SkillsHead, SkillsBody, SkillsSubContain, 
   SkillsSubHead, SkillsGrid, Skill, SkillTitle, SkillBG } from "./styles/Skills.styled";

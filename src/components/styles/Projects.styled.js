@@ -75,6 +75,10 @@ export const ImgGrid = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3px;
     background-color: #d5d5d5;
+
+    @media (max-width: 1080px){
+        grid-template-columns: repeat(1, 1fr);
+    }
 `
 
 /*export const ImgMod = ({isGif}) => (

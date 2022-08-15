@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, Route, Routes, Router } from "react-router-dom";
 import { AboutPageContent, AboutContainer, AboutHead, AboutBody, AboutMail } from "./styles/About.styled";
 
 export default function About() {

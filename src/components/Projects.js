@@ -11,9 +11,8 @@ export default function Projects() {
               My Work
             </ProjHead>
             <ProjBody>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-              facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-              fuga dolore.
+              These are some of the projects I've either created on my lonesome or 
+              contributed to in a meaningful way. Feel free to take a look around.
             </ProjBody>
           </ProjDescrContainer>
           <ProjectContain>
