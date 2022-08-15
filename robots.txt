@@ -1,1 +1,3 @@
-Sitemap: https://dnsavage.github.io/sitemap.txt
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
