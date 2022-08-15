@@ -55,7 +55,7 @@ export const projects = [
     title: "ArgShare Admin Panel",
     subtitle: "Node.js, Electron, HTML/CSS, C# .NET, and MySQL",
     description: 
-    "This is the side of ArgShare that people don't see. A web app wrapped in a native app layer, the admin panel allows for site moderation, including project approval/denial, an admin directory, the ability to post official project ideas, feedback responses, and more.",
+    "This is the side of ArgShare that people don't see. A web app wrapped in a native app layer, the admin panel allows for moderation of the main site.",
     tools: ["HTML/CSS", "Node.js", "Electron", "C#/.NET", "SQL/MySQL"],
     features: ["Project approval/denial", "Custom project feedback", "Official project posting", "Admin directory", "Admin creation tool", "Report feedback tool", "System specs"],
     images: [
@@ -84,7 +84,7 @@ export const projects = [
     title: "Tide Market Pharmacy",
     subtitle: "JavaScript, HTML/CSS, C# .NET, and MySQL",
     description: 
-    "MIS-321 group project to track pharmacy appointments and employee schedules. Additional features include account creation, employee termination, and administrative functions.",
+    "This was a group project comissioned in my MIS-321 course. We were required to create a web app to track pharmacy appointments and employee schedules. ",
     tools: ["HTML/CSS", "JavaScript", "C#/.NET", "SQL/MySQL"],
     features: ["Account creation", "Appointment scheduling/viewing/canceling", "Employee creation tool", "Employee schedule/termination tool", "Admin functions"],
     images: [
