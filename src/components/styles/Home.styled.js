@@ -57,10 +57,11 @@ export const ResumeLink = styled.a`
 `
 
 export const MailLink = styled.a`
-    color: #D5D5D5;
-    text-decoration: underline;
+    color: #ff2975;
+    text-decoration: none;
     :hover {
-        color: #ff2975;
+        color: #bf2975;
+        text-decoration: underline;
     }
 `
 
