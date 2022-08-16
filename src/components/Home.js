@@ -18,7 +18,7 @@ export default function Home() {
             <PointBody>
               While you're here, why not grab a copy of my resume?
             </PointBody>
-            <ResumeLink target="_blank" rel="noopener noreferrer" href="https://bama365-my.sharepoint.com/:b:/g/personal/dnsavage_crimson_ua_edu/EU1I5s8uJE9GnNZxndE4dhsB-xw1x5EUUpRCIowqxZRWOg?e=zalKjD">
+            <ResumeLink target="_blank" rel="noopener noreferrer" href="https://bama365-my.sharepoint.com/:b:/g/personal/dnsavage_crimson_ua_edu/ETQiVmvSJIhHo_NKqzjy8WcB6Ihe_HK7G8OCMUMQvlVIqQ?e=Z9Qz3d">
               View Resume
             </ResumeLink>
             <PointBody>
