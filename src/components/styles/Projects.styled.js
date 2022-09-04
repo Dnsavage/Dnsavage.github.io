@@ -85,9 +85,37 @@ export const ImgGrid = styled.div`
     <Img key={this.path} alt={this.alt} src={this.path} />
 );*/
 
+export const ImgContainer = styled.div`
+    position: relative;
+    text-align: center;
+`
+
 export const Img = styled.img`
     max-width: 100%;
     max-height: 100%;
+`
+
+export const ImgLoader = styled.div`
+    display: none;
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    //border: calc(4px + 0.005vw) solid #666666;
+    border-top: calc(4px + 0.005vw) solid #7429ff;
+    border-radius: 50%;
+    width: calc(12px + 5vw);
+    height: calc(12px + 5vw);
+    animation: spin .75s linear infinite;
+
+    @keyframes spin{
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 1080px){
+        width: calc(12px + 15vw);
+        height: calc(12px + 15vw);
+    }
 `
 
 export const ProjDescr = styled.p`

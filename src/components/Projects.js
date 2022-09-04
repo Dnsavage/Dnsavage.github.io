@@ -1,6 +1,6 @@
 import { projects } from "../data";
 import { ProjDescrContainer, ProjHead, ProjBody, ProjectContain, Project, 
-  SlideShow, ProjTitle, SiteLink, ImgGrid, Img, 
+  SlideShow, ProjTitle, SiteLink, ImgGrid, ImgContainer, Img, ImgLoader, 
   ProjDescr, ListHead, ProjList, BottomContain, ProjToolsContain, ProjFeatsContain } from "./styles/Projects.styled";
 
 export default function Projects() {
@@ -27,14 +27,30 @@ export default function Projects() {
                 <SlideShow>
                   <ImgGrid>
                     {project.images.map((img) => (
-                        <Img key={img.path} alt={img.alt} src={img.path} 
-                        onMouseOver={e => {
-                          if(img.gif){(e.currentTarget.src=img.gif)}
-                        }}
-                        onMouseOut={e => {
-                          if(img.gif){(e.currentTarget.src=img.path)}
-                        }}
-                        />
+                        <ImgContainer>
+                          <ImgLoader id={img.path} />
+                          <Img key={img.path} alt={img.alt} src={img.path} 
+                          onMouseOver={e => {
+                            if(img.gif){
+                              document.getElementById(img.path).style.display='inline-block';
+                              const changeTarget = async() => {
+                                e.currentTarget.src=img.gif;
+                                return 1;
+                              }
+                              async function changeFlow(){
+                                const targetChange = await changeTarget();
+                                if(targetChange===1){
+                                  document.getElementById(img.path).style.display='none';
+                                }
+                              }
+                              changeFlow();
+                            }
+                          }}
+                          onMouseOut={e => {
+                            if(img.gif){(e.currentTarget.src=img.path)}
+                          }}
+                          />
+                        </ImgContainer>
                     ))}
                   </ImgGrid>
                 </SlideShow>
