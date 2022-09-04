@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.8f89f020.js",
+    "main.js": "/static/js/main.a5190014.js",
     "static/js/787.a9a989d6.chunk.js": "/static/js/787.a9a989d6.chunk.js",
-    "static/media/TP_Emp.gif": "/static/media/TP_Emp.8aca5b868f01879a3de3.gif",
-    "static/media/AS_Cats.gif": "/static/media/AS_Cats.779a7de979758807c6fd.gif",
-    "static/media/Adm_Demo.gif": "/static/media/Adm_Demo.08742f7dc28824c9a916.gif",
-    "static/media/TP_Appointment.gif": "/static/media/TP_Appointment.8cb9a0fb9f76c000d3b7.gif",
+    "static/media/Adm_Demo1.mp4": "/static/media/Adm_Demo1.2fdae05ecac6e47362db.mp4",
+    "static/media/AS_Cats1.mp4": "/static/media/AS_Cats1.ca5b138ab0814518bea4.mp4",
+    "static/media/TP_Emp1.mp4": "/static/media/TP_Emp1.e1bc976d4cadba9a86f4.mp4",
     "static/media/AS_Home.PNG": "/static/media/AS_Home.f2172b2736e73a6f14b2.PNG",
+    "static/media/TP_Appointment1.mp4": "/static/media/TP_Appointment1.d4246b9e4a8def6490e1.mp4",
     "static/media/TP_Home.PNG": "/static/media/TP_Home.fcf3ae15b34de85cd688.PNG",
     "static/media/TP_Emp_2.png": "/static/media/TP_Emp_2.a20c4f95cbbc631c2e2d.png",
     "static/media/TP_Appointment_2.png": "/static/media/TP_Appointment_2.6de161e52368f88204aa.png",
@@ -25,10 +25,10 @@
     "static/media/Git.png": "/static/media/Git.b753bc268c4e34fe8914.png",
     "static/media/JsImg.png": "/static/media/JsImg.9a55811b0b7a41b4f1de.png",
     "index.html": "/index.html",
-    "main.8f89f020.js.map": "/static/js/main.8f89f020.js.map",
+    "main.a5190014.js.map": "/static/js/main.a5190014.js.map",
     "787.a9a989d6.chunk.js.map": "/static/js/787.a9a989d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8f89f020.js"
+    "static/js/main.a5190014.js"
   ]
 }
