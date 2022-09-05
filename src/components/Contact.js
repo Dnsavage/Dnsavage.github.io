@@ -12,7 +12,7 @@ export default function Contact() {
                 I'll also respond to messages on <ContactLink target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dnsavage/">
                     LinkedIn
                 </ContactLink>. 
-                If you're not quite ready to reach out, consider taking a copy of my <ContactLink target="_blank" rel="noopener noreferrer" href="https://bama365-my.sharepoint.com/:b:/g/personal/dnsavage_crimson_ua_edu/EcH_2caU4UNDpNUY5jvDFJcBQ0PXZFIkMHOsKOujDbYwMw?e=7ZZetM">
+                If you're not quite ready to reach out, consider taking a copy of my <ContactLink target="_blank" rel="noopener noreferrer" href="https://bama365-my.sharepoint.com/:b:/g/personal/dnsavage_crimson_ua_edu/EUfqy1FJBi9Ch5zoNuXflGsBBvUXEAltd3SCRqpOYK4kkA?e=vAxZr2">
                     resume
                 </ContactLink> for future reference.<br/><br/>
                 I hope to hear from you soon!
