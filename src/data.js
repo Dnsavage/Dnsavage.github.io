@@ -23,6 +23,8 @@ import React from "./images/React.png";
 import Git from "./images/Git.png";
 import TS from "./images/TsImg.png";
 import GQL from "./images/GraphQLImg.png";
+import TW from "./images/TwCssImg.png";
+import Jest from "./images/JestImg.png";
 
 export const projects = [
   {
@@ -179,5 +181,13 @@ export const skills = [
   {
     title: "GraphQL",
     image: GQL,
+  },
+  {
+    title: "Tailwind",
+    image: TW,
+  },
+  {
+    title: "Jest",
+    image: Jest,
   },
 ];
