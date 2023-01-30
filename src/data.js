@@ -25,6 +25,7 @@ import TS from "./images/TsImg.png";
 import GQL from "./images/GraphQLImg.png";
 import TW from "./images/TwCssImg.png";
 import Jest from "./images/JestImg.png";
+import Mongo from "./images/MongoDBImg.png";
 
 export const projects = [
   {
@@ -189,5 +190,9 @@ export const skills = [
   {
     title: "Jest",
     image: Jest,
+  },
+  {
+    title: "MongoDB",
+    image: Mongo,
   },
 ];
