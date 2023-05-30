@@ -62,7 +62,7 @@ export const projects = [
         caption: "An ArgShare Post",
       },
     ],
-    link: "https://www.argshare.com",
+    link: "",
   },
   {
     title: "ArgShare Admin Panel",
@@ -134,7 +134,7 @@ export const projects = [
         caption: "Employee Directory",
       },
     ],
-    link: "https://pharmacyclient321.herokuapp.com/home.html",
+    link: "",
   },
 ];
 

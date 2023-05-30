@@ -24,9 +24,9 @@ export default function Home() {
           Hi, <Name>I'm Dustin</Name>
         </IntroHead>
         <IntroBody>
-          I'm a full-stack web developer from West Blocton, Alabama. I'm
-          currently in my final year at The University of Alabama studying for
-          my undergrad in MIS. When I'm not working, I can either be found
+          I'm a full-stack web developer from West Blocton, Alabama. I work as a
+          Programmer Analyst for the Jefferson County Department of Health in
+          Birmingham, Alabama. When I'm not working, I can either be found
           playing video games or out exploring nature.
         </IntroBody>
       </IntroContainer>
@@ -37,7 +37,7 @@ export default function Home() {
         <ResumeLink
           target="_blank"
           rel="noopener noreferrer"
-          href="https://bama365-my.sharepoint.com/:b:/g/personal/dnsavage_crimson_ua_edu/EUfqy1FJBi9Ch5zoNuXflGsBBvUXEAltd3SCRqpOYK4kkA?e=pSyW1Q"
+          href="https://1drv.ms/b/s!AgBXgFNS-erugQDnwhVSYTfDkQtp?e=kcHtjO"
         >
           View Resume
         </ResumeLink>
